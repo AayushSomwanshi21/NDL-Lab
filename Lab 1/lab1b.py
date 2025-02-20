@@ -61,4 +61,4 @@ if __name__ == '__main__':
 
         output = neuron.activate(test)
         print(
-            f'Input:{test} Actual Output:{y_train[i]} Output:{round(output, 4)}')
+            f'Input:{test} Desired Output:{y_train[i]} Actual Output:{round(output, 4)}')
